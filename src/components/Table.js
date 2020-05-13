@@ -2,7 +2,7 @@ import React from "react";
 import TableRows from "./TableRows";
 
 function Table(props){
-    console.log(props.employees)
+    // console.log(props.employees)
     // const employeeList = props.employees.results;
 
     return (

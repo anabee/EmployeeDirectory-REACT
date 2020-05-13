@@ -1,13 +1,14 @@
 import React from "react"; 
+import "./style.css"
 
 function Header(){
     return (
-        <div>
-            <nav className="navbar navbar-light bg-light">
-        <h1>Employee Directory</h1>
-        <h3>Click on controls to filter by heading or use the search box to narrow your results.</h3>
-            </nav>
+        <nav>
+        <div className="center"><h1>Employee Directory</h1></div>
+        <div className="center">
+        <h4>Click on controls to filter by heading or use the search box to narrow your results.</h4>
         </div>
+        </nav>
     ); 
 }
 

@@ -1,16 +1,40 @@
 import React from "react"; 
+import "./style.css"
 
-function FilterBox(){
+class FilterBox extends React.Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            search: null
+        }
+    }
+
+    handleSubmit = (event)=> {
+        event.preventDefault()
+        const data = this.state
+        console.log(data)
+    }
+
+    handleInputChange = (event) => {
+        event.preventDefault()
+        // console.log(event.target.value)
+        this.setState({
+            [event.target.name]: event.target.value
+        })
+    }
+    
+    render(){
     return (
         <div>
-        <div className="input-group mb-3">
-            <input type="text" className="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" />
-            <div className="input-group-append">
-            <button className="btn btn-outline-secondary" type="button" id="button-addon2">Filter</button>
-        </div>
-        </div>
+            <form onSubmit={this.handleSubmit}>
+            <div className="form-group">
+            <input type="text" className="form-control" name="search" onChange= {this.handleInputChange}></input>
+            </div>
+            <button className="btn btn-outline-secondary" type="submit" id="button-addon2"><i className="fas fa-user-circle"></i></button>
+            </form>
         </div>
     ); 
+    }
 }
 
 export default FilterBox; 
