@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EmployeeDirectory-REACT - README.md
+
+![Github License](https://img.shields.io/badge/license--blue.svg)
+
+## Description
+
+This Employee Directory was created using REACT. There are a couple of components that create the employee list populated with data retrieved from an AJAX call. A call to the API is made every time the page is refreshed, so there will be new employees every time.  The application allows the user to search the list of employees through the search bar. The results are filtered as you type but the button can also allow the user to search. There is one sorting function in the name column that allows the user to alphabetize the users. 
+
+## Table of Contents
+* [License](#license)
+* [Questions](#questions)
+
+## License 
+This project is licensed under MIT
 
 ## Available Scripts
 
@@ -12,57 +25,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+## Questions 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://avatars3.githubusercontent.com/u/42880531?v=4" alt="avatar" style="border-radius: 16px" width="30 />
 
-### `npm run build`
+> If you have any questions about the repo, open an issue or contact anabee directly at: [GitHub](https://api.github.com/users/anabee) | [Email](anav2636@gmail.com)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ https://github.com/anabee/EmployeeDirectory-REACT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ https://thawing-lowlands-24630.herokuapp.com/
 
-### `npm run eject`
+ <img width="1190" alt="Screen Shot 2020-05-18 at 4 40 44 PM" src="https://user-images.githubusercontent.com/42880531/82269357-53165180-9926-11ea-9703-5a79dc150297.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img width="1190" alt="Screen Shot 2020-05-18 at 4 40 58 PM" src="https://user-images.githubusercontent.com/42880531/82269365-5b6e8c80-9926-11ea-93db-6b9dd9c1cfd4.png">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<img width="1190" alt="Screen Shot 2020-05-18 at 4 41 32 PM" src="https://user-images.githubusercontent.com/42880531/82269402-6fb28980-9926-11ea-8bc7-353d57ebf869.png">
