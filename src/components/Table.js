@@ -2,8 +2,9 @@ import React from "react";
 import TableRows from "./TableRows";
 
 function Table(props){
-    // console.log(props.employees)
+    console.log(props.search)
     // const employeeList = props.employees.results;
+    
 
     return (
         <div className="container">
@@ -11,7 +12,9 @@ function Table(props){
   <thead>
     <tr>
       <th scope="col">Image</th>
-      <th scope="col">Name</th>
+      <th scope="col">Name
+      <button onClick={props.handleClick} className={"sortBtn"}><i className="fas fa-sort-alpha-down"></i></button>
+      </th>
       <th scope="col">Phone</th>
       <th scope="col">Email</th>
       <th scope="col">DOB</th>
@@ -27,6 +30,7 @@ function Table(props){
         phone = {employee.phone}
         email = {employee.email}
         dob = {employee.dob.date}
+        hello1={props.hello}
         />
       ))
   }

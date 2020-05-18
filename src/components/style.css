@@ -49,4 +49,16 @@ form {
 input {
     text-align: center;
     margin: auto!important;
+    /* padding: 0 200px 0 200px !important; */
 }
+
+button {
+    margin: 10px !important;
+}
+
+.sortBtn {
+    border-radius: 20%!important;
+    border-color: whitesmoke;
+    margin: 0;
+}
+

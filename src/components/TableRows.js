@@ -11,7 +11,7 @@ function TableRows(props){
             <td>
                 {props.name}  {props.lastname}
             </td>
-            <td>
+            <td onClick={props.hello1}>
                 {props.phone}
             </td>
             <td>
